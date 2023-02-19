@@ -11,7 +11,7 @@ classifier = Classifier("Model/keras_model.h5", "Model/labels.txt")
 offset = 20
 imgSize = 100
 
-labels = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "SPACE", "NOTHING"]
+labels = ["A", "B", "C", "D", "E", "F"]
 
 while True:
     success, img = cap.read()
